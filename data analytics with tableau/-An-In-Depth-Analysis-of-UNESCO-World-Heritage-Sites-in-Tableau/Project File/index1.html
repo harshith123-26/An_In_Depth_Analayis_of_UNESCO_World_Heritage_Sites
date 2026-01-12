@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heritage Treasures - UNESCO World Heritage Analysis</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    nav { background: #e1eaff; padding: 12px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #003366; }
+    nav a:hover { text-decoration: underline; }
+    .content { display: none; padding: 20px; }
+    .active { display: block; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#story">Story</a>
+  </nav>
+
+  <!-- HOME -->
+  <div id="home" class="content active">
+    <h1>Heritage Treasures: An In-Depth Analysis of UNESCO World Heritage Sites in Tableau</h1>
+    <p>
+      <strong>"Heritage Treasures: An In-Depth Analysis of UNESCO World Heritage Sites (2019)"</strong> is a comprehensive project aimed at exploring the rich dataset of UNESCO World Heritage Sites using Tableau. This project focuses on visualizing the distribution, trends, and key attributes of these sites to provide valuable insights. By leveraging the power of data visualization, stakeholders can gain a deeper understanding of the global heritage landscape, identify patterns, and make informed decisions to enhance the preservation and promotion of these sites.
+    </p>
+
+    <h3>Scenarios:</h3>
+
+    <h4>Scenario 1: Heritage Sites by Country</h4>
+    <p>
+      This visual represents each country as a block, with the size of each block proportional to the number of heritage sites it contains. This visualization quickly identifies which countries have the most UNESCO World Heritage Sites, offering a clear and comprehensive view of heritage site distribution. The key columns used are <strong>Country</strong> and <strong>Name_en</strong>.
+    </p>
+
+    <h4>Scenario 2: Heritage Sites at Risk</h4>
+    <p>
+      This pie chart displays the proportion of UNESCO World Heritage Sites listed as being in danger, segmenting the sites into <strong>'In Danger'</strong> and <strong>'Not in Danger'</strong> categories. This visual aids in understanding the severity of threats to world heritage sites, allowing stakeholders to focus their preservation efforts on the most vulnerable sites. Columns used: <strong>Danger</strong> and <strong>Name_en</strong>.
+    </p>
+
+    <h4>Scenario 3: Regional Inscription Trends</h4>
+    <p>
+      This line chart shows the trend of new site inscriptions over the years, segmented by region, providing insights into which regions have seen the most growth in terms of heritage site inscriptions. It visualizes the columns <strong>Date_inscribed</strong> and <strong>Region</strong> to highlight historical trends and conservation efforts.
+    </p>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="about" class="content">
+    <h2>About the Project</h2>
+    <p>
+      <strong>Heritage Treasures: An In-Depth Analysis of UNESCO World Heritage Sites (2019)</strong> is a data visualization project that explores the global spread and status of UNESCO World Heritage Sites using Tableau. The goal is to transform complex heritage data into accessible, interactive visuals that support heritage awareness, conservation planning, and historical education.
+    </p>
+    <p>
+      The dataset includes information on more than 1,000 sites worldwide — spanning cultural, natural, and mixed heritage categories. Key insights are drawn from metrics like country and region, inscription year, danger status, and site area. By visualizing these attributes, the project uncovers patterns in heritage recognition and highlights sites that are most at risk.
+    </p>
+    <p>
+      This project is structured around three core visual scenarios:
+      <ul>
+        <li><strong>Heritage Sites by Country</strong>: A treemap that shows which countries have the highest number of World Heritage Sites.</li>
+        <li><strong>Sites at Risk</strong>: A pie chart dividing sites into those marked as “In Danger” versus those that are not.</li>
+        <li><strong>Regional Inscription Trends</strong>: A time-based line chart showing how site inscriptions have evolved across global regions.</li>
+      </ul>
+    </p>
+    <p>
+      The entire visualization process—from data preparation to dashboard and story creation—was completed using Tableau. The resulting dashboards are embedded here for live exploration. This project not only strengthens data analysis skills but also contributes meaningfully to cultural preservation efforts.
+    </p>
+  </div>
+
+  <!-- DASHBOARD -->
+  <div id="dashboard" class="content">
+    <h2>Dashboard</h2>
+    <div class='tableauPlaceholder' id='viz1751572663396' style='position: relative'>
+      <noscript><a href='#'>
+        <img alt='Story 2 ' src='https://public.tableau.com/static/images/He/HeritageSites_17515717702120/Story2/1_rss.png' style='border: none' />
+      </a></noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='HeritageSites_17515717702120&#47;Story2' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/He/HeritageSites_17515717702120/Story2/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+        <param name='filter' value='publish=yes' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1751572663396');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '800px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <!-- STORY -->
+  <div id="story" class="content">
+    <h2>Story</h2>
+    <div class='tableauPlaceholder' id='viz1751572114034' style='position: relative'>
+      <noscript><a href='#'>
+        <img alt='Story 2 ' src='https://public.tableau.com/static/images/2K/2KTPXZT5F/1_rss.png' style='border: none' />
+      </a></noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared&#47;2KTPXZT5F' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/2K/2KTPXZT5F/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+        <param name='filter' value='publish=yes' />
+      </object>
+    </div>
+    <script type='text/javascript'>
+      var divElement = document.getElementById('viz1751572114034');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '800px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </div>
+
+  <!-- NAVIGATION LOGIC -->
+  <script>
+    const links = document.querySelectorAll('nav a');
+    const sections = document.querySelectorAll('.content');
+    links.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        sections.forEach(sec => sec.classList.remove('active'));
+        document.querySelector(link.getAttribute('href')).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
